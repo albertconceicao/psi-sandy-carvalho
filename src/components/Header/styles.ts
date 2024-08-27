@@ -21,6 +21,9 @@ export const TextContent = styled.div`
 
   @media (min-width: 768px) {
     max-width: 558px;
+    svg {
+      display: none;
+    }
   }
 `;
 

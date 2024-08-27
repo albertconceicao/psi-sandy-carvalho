@@ -38,7 +38,7 @@ export const MobileContainer = styled.div`
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: ${({ theme }) => theme.secondary};
   }
 
   /* Color/shape of burger icon bars on hover*/
@@ -68,14 +68,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: ${({ theme }) => theme.secondary};
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: ${({ theme }) => theme.secondary};
   }
 
   /* Wrapper for item list */
