@@ -4,9 +4,11 @@ import { Container } from './styles';
 
 export function Header() {
   return (
-    <Container className="container">
+    <Container>
       <Navbar />
-      <HeaderText />
+      <div className="container">
+        <HeaderText />
+      </div>
     </Container>
   );
 }

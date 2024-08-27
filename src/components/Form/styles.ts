@@ -48,18 +48,18 @@ export const Input = styled.input`
   background: ${({ theme }) => theme.inputBackground};
   border: 1px solid ${({ theme }) => theme.border};
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.faqTextColor};
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;
   transition: 0.5s;
 
   &:focus {
-    border-color: ${({ theme }) => theme.primary};
+    border-color: ${({ theme }) => theme.faqTextColor};
   }
 
   &::placeholder {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.faqTextColor};
   }
 
   @media (max-width: 450px) {
@@ -74,21 +74,21 @@ export const Select = styled.select`
   background: ${({ theme }) => theme.inputBackground};
   border: 1px solid ${({ theme }) => theme.border};
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.faqTextColor};
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;
   transition: 0.5s;
 
   option {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.faqTextColor};
   }
   &:focus {
-    border-color: ${({ theme }) => theme.primary};
+    border-color: ${({ theme }) => theme.faqTextColor};
   }
 
   &::placeholder {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.faqTextColor};
   }
 
   @media (max-width: 450px) {
@@ -103,7 +103,7 @@ export const TextArea = styled.textarea`
   background: ${({ theme }) => theme.inputBackground};
   border: 1px solid ${({ theme }) => theme.border};
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.faqTextColor};
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;
@@ -113,11 +113,11 @@ export const TextArea = styled.textarea`
   grid-column: 1/3; //Faz o input ocupar a linha inteira de 3 linhas, ele vai da 1 até a 3
 
   &:focus {
-    border-color: ${({ theme }) => theme.primary};
+    border-color: ${({ theme }) => theme.faqTextColor};
   }
 
   &::placeholder {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.faqTextColor};
   }
 
   @media (max-width: 700px) {

@@ -12,7 +12,7 @@ const theme = {
   textWhite: '#FFFFFF',
   textBlack: '#000000',
   border: '#313958',
-  inputBackground: '#1E253E',
+  inputBackground: '#eccfc8',
   error: '#d45d5d',
   buttonBorder: '#1B392E',
   buttonGreenBackground: '#1B392E',
