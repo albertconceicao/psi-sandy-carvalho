@@ -16,17 +16,22 @@ export function Depoiments() {
         <DepoimentsTitle>depoimentos</DepoimentsTitle>
 
         <DepoimentsContainer>
-          <Button>Back</Button>
+          <Button>
+            <img src="./left-arrow.svg" alt="Botão de voltar" />
+          </Button>
           <DepoimentsBox>
             {DepoimentsMock.map(depoiment => (
               <Depoiment
+                key={depoiment.title}
                 title={depoiment.title}
                 date={depoiment.date}
                 text={depoiment.text}
               />
             ))}
           </DepoimentsBox>
-          <Button>Previous</Button>
+          <Button>
+            <img src="./right-arrow.svg" alt="Botão de avançar" />
+          </Button>
         </DepoimentsContainer>
         <Button>Escrever depoimento</Button>
       </Content>

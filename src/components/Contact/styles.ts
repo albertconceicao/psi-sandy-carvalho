@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  margin: 4rem 0;
+`;
 
 export const Content = styled.div`
   display: flex;
@@ -15,6 +17,9 @@ export const Content = styled.div`
 export const LeftContent = styled.div``;
 
 export const RightContent = styled.div`
+  background: ${({ theme }) => theme.backgroundWhite};
+  padding: 40px;
+  border-radius: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;

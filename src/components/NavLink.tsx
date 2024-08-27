@@ -7,5 +7,16 @@ interface NavLinkProps {
 }
 
 export function NavLink({ children, url }: NavLinkProps) {
-  return <Link href={url}>{children}</Link>;
+  function handleClick(e: React.MouseEvent<HTMLAnchorElement>) {
+    const target = document.querySelector(url);
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  return (
+    <Link href={url} passHref onClick={handleClick}>
+      {children}
+    </Link>
+  );
 }

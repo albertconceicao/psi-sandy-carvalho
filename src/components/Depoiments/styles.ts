@@ -1,17 +1,29 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  margin: 4rem 0;
+  text-align: center;
+`;
 
 export const Content = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
 `;
 export const DepoimentsContainer = styled.div`
+  margin: 4rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+
+  button {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
 `;
 
 export const DepoimentsBox = styled.div`
@@ -25,6 +37,8 @@ export const DepoimentBox = styled.div`
   border-radius: 10px;
   padding: 1.5rem;
   text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 `;
 
 export const DepoimentsTitle = styled.h3`
@@ -47,4 +61,7 @@ export const DepoimentText = styled.p`
   font-size: 0.8rem;
 `;
 
-export const Button = styled.button``;
+export const Button = styled.button`
+  max-width: 300px;
+  margin: 0 auto;
+`;

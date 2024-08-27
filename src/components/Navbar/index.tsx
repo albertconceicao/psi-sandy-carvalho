@@ -30,11 +30,11 @@ export function Navbar() {
           <DrawerContent>
             <DrawerBody>
               <Nav>
-                <NavLink url="/">Sobre Mim</NavLink>
-                <NavLink url="/">Abordagem</NavLink>
-                <NavLink url="/">Modalidade</NavLink>
-                <NavLink url="/">Serviços</NavLink>
-                <NavLink url="/">Dúvidas Frequentes</NavLink>
+                <NavLink url="#sobre-mim">Sobre Mim</NavLink>
+                <NavLink url="#abordagem">Abordagem</NavLink>
+                <NavLink url="#modalidades">Modalidade</NavLink>
+                <NavLink url="#servicos">Serviços</NavLink>
+                <NavLink url="#duvidas">Dúvidas Frequentes</NavLink>
                 <NavLink url="#contato">Contato</NavLink>
               </Nav>
             </DrawerBody>
@@ -45,12 +45,12 @@ export function Navbar() {
       <WebContainer>
         <Logo />
         <Nav>
-          <NavLink url="/">Sobre Mim</NavLink>
-          <NavLink url="/">Abordagem</NavLink>
-          <NavLink url="/">Modalidade</NavLink>
-          <NavLink url="/">Serviços</NavLink>
-          <NavLink url="/">Dúvidas Frequentes</NavLink>
-          <NavLink url="/">Contato</NavLink>
+          <NavLink url="#sobre-mim">Sobre Mim</NavLink>
+          <NavLink url="#abordagem">Abordagem</NavLink>
+          <NavLink url="#modalidades">Modalidade</NavLink>
+          <NavLink url="#servicos">Serviços</NavLink>
+          <NavLink url="#duvidas">Dúvidas Frequentes</NavLink>
+          <NavLink url="#contato">Contato</NavLink>
         </Nav>
       </WebContainer>
     </>

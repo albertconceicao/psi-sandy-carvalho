@@ -1,8 +1,13 @@
 import Head from 'next/head';
 
 import Logo from '../assets/logo.svg';
+import { Approaching } from '../components/Approaching';
 import { Contact } from '../components/Contact';
 import { Depoiments } from '../components/Depoiments';
+import { Faq } from '../components/FAQ';
+import { Modality } from '../components/Modality';
+import { Services } from '../components/Services';
+import { WhoAmI } from '../components/WhoAmI';
 
 export default function Home() {
   return (
@@ -13,10 +18,19 @@ export default function Home() {
       </Head>
 
       <main className="container">
+        <WhoAmI />
+      </main>
+      <Approaching />
+      <div className="container">
+        <Modality />
+      </div>
+      <Services />
+      <div className="container">
+        <Faq />
         <Depoiments />
         <Contact />
         <Logo />
-      </main>
+      </div>
     </div>
   );
 }
