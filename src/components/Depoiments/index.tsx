@@ -12,7 +12,7 @@ import {
 export function Depoiments() {
   return (
     <Container>
-      <Content>
+      <Content className="container">
         <DepoimentsTitle>depoimentos</DepoimentsTitle>
 
         <DepoimentsContainer>

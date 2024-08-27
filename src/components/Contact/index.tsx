@@ -11,7 +11,7 @@ import {
 export function Contact() {
   return (
     <Container id="contato">
-      <Content>
+      <Content className="container">
         <LeftContent>
           <h3>contato</h3>
           <h2>Entrar em contato</h2>

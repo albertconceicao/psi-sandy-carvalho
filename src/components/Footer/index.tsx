@@ -8,8 +8,8 @@ import {
 export function Footer() {
   return (
     <Container>
-      <FooterWarningsContent className="container">
-        <FooterWarningsContainer>
+      <FooterWarningsContent>
+        <FooterWarningsContainer className="container">
           <strong>
             <i>Atenção</i>
           </strong>

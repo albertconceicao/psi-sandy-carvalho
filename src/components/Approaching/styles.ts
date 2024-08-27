@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  padding: 6.25rem 0;
+  /* padding: 6.25rem 0; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

@@ -3,7 +3,7 @@ import { Container, Content, LeftContent, RightContent } from './styles';
 
 export function Faq() {
   return (
-    <Container id="duvidas">
+    <Container>
       <Content>
         <LeftContent>
           <h1>Perguntas frequentes</h1>

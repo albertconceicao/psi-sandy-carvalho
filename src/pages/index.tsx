@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-import Logo from '../assets/logo.svg';
 import { Approaching } from '../components/Approaching';
 import { Contact } from '../components/Contact';
 import { Depoiments } from '../components/Depoiments';
@@ -21,16 +20,15 @@ export default function Home() {
         <WhoAmI />
       </main>
       <Approaching />
-      <div className="container">
+      <div className="container" id="modalidades">
         <Modality />
       </div>
       <Services />
-      <div className="container">
+      <div className="container" id="duvidas">
         <Faq />
-        <Depoiments />
-        <Contact />
-        <Logo />
       </div>
+      <Depoiments />
+      <Contact />
     </div>
   );
 }

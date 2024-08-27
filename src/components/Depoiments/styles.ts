@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin: 4rem 0;
   text-align: center;
+  background: ${({ theme }) => theme.lowTitle};
 `;
 
 export const Content = styled.div`
@@ -47,6 +48,7 @@ export const DepoimentBox = styled.div`
 
 export const DepoimentsTitle = styled.h3`
   text-align: center;
+  color: #fff;
 `;
 
 export const DepoimentTitle = styled.h4`

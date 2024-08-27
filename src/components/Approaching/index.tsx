@@ -11,8 +11,8 @@ import {
 
 export function Approaching() {
   return (
-    <Container className="container" id="abordagem">
-      <Content>
+    <Container id="abordagem">
+      <Content className="container">
         <LeftContent>
           <Image
             src="./mockup-method.jpg"

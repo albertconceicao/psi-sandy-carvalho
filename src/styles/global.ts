@@ -49,7 +49,8 @@ export default createGlobalStyle`
   }
   .container {
     padding: 40px 111px 40px;
-
+    max-width: 1440px;
+    margin: 0 auto;
 
     @media (max-width: 1200px) {
         padding: 80px 60px 102px;

@@ -25,7 +25,7 @@ export function Form() {
 
   // Usage example:
   // const formattedPhone = parsePhoneNumber(phone);
-  const whatsAppText = `Olá, *${name}*. Obrigado por entrar em contato comigo. Estou entrando em contato para agendar a nossa primeira sessão de *${selectedService}* no período da *${selectedPeriod}* selecionado com o propósito de *${purpose}*. Me conta, qual dia é o melhor para você? `;
+  const whatsAppText = `Olá, *${name}*. Obrigado por entrar em contato comigo. Estou entrando em contato para agendar a nossa primeira sessão de *${selectedService}* no período da *${selectedPeriod}* selecionado com o propósito de *${purpose}*. Me conta, qual dia é o melhor para você?`;
   const dataApi = {
     Nome: name,
     Número_Telefone: phone,
@@ -44,7 +44,7 @@ export function Form() {
   };
 
   const urlsApi = [
-    'https://formsubmit.co/ajax/245a1cbaa5679824187a40041afd13db',
+    'https://formsubmit.co/ajax/contato@albertconceicao.dev.br',
     'https://api.sheetmonkey.io/form/q8C9wwkXizVoZ2vGU3SUVv'
   ];
 

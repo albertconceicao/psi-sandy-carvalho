@@ -3,10 +3,10 @@ import { Container, LeftContent } from './styles';
 
 export function Modality() {
   return (
-    <Container id="modalidades">
+    <Container>
       <LeftContent>
         <h1>Modalidade</h1>
-        <h4>Sub Title</h4>
+        <h4>Atendimento online</h4>
         <ModalityList />
       </LeftContent>
     </Container>
