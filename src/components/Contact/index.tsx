@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Form } from '../Form';
 import {
   Button,
@@ -9,19 +10,36 @@ import {
 } from './styles';
 
 export function Contact() {
+  const [depoiment, setIsDepoiment] = useState(false);
+
+  function handleWriteDepoiment() {
+    setIsDepoiment(true);
+  }
+  function handleMakeContact() {
+    setIsDepoiment(false);
+  }
   return (
     <Container id="contato">
       <Content className="container">
         <LeftContent>
-          <h3>contato</h3>
-          <h2>Entrar em contato</h2>
+          {depoiment ? (
+            <>
+              <h3>depoimento</h3>
+              <h2>Escreva seu depoimento</h2>
+            </>
+          ) : (
+            <>
+              <h3>contato</h3>
+              <h2>Entre em contato</h2>
+            </>
+          )}
         </LeftContent>
         <RightContent>
           <ButtonsContainer>
-            <Button>Entrar em contato</Button>
-            <Button>Escrever depoimento</Button>
+            <Button onClick={handleMakeContact}>Entrar em contato</Button>
+            <Button onClick={handleWriteDepoiment}>Escrever depoimento</Button>
           </ButtonsContainer>
-          <Form />
+          <Form isDepoiment={depoiment} />
         </RightContent>
       </Content>
     </Container>
